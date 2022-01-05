@@ -1,53 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T07:01:20.035Z" agent="5.0 (Macintosh)" etag="AKbeYeMPtiuBUw_NZ6Jg" version="16.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-05T07:11:47.640Z" agent="5.0 (Macintosh)" etag="EmMSVEz7YL6v2y5nnhaZ" version="16.2.1" type="github">
   <diagram id="oboEeB2ZAiel5B7vhibJ" name="Page-1">
     <mxGraphModel dx="1234" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rVWjAJIjlMf2q0YCCjkN-3" value="Cluster 1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="130" width="660" height="210" as="geometry" />
+        <mxCell id="rVWjAJIjlMf2q0YCCjkN-3" value="Cluster 1 (DRP)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="40" width="660" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="rVWjAJIjlMf2q0YCCjkN-4" value="Cluster 2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="95" y="460" width="660" height="200" as="geometry" />
+        <mxCell id="rVWjAJIjlMf2q0YCCjkN-4" value="&lt;div&gt;Cluster 2 (ARC)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="95" y="370" width="660" height="200" as="geometry" />
         </mxCell>
         <mxCell id="rVWjAJIjlMf2q0YCCjkN-5" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="260" width="170" height="60" as="geometry" />
+          <mxGeometry x="180" y="170" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rVWjAJIjlMf2q0YCCjkN-6" value="Consumer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="260" width="170" height="60" as="geometry" />
+          <mxGeometry x="500" y="170" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rVWjAJIjlMf2q0YCCjkN-7" value="Consumer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="480" width="170" height="60" as="geometry" />
+          <mxGeometry x="180" y="390" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rVWjAJIjlMf2q0YCCjkN-8" value="Producer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="480" width="170" height="60" as="geometry" />
+          <mxGeometry x="500" y="390" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rVWjAJIjlMf2q0YCCjkN-9" value="&lt;div&gt;Bridge Interceptor&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="135" y="380" width="580" height="60" as="geometry" />
+          <mxGeometry x="135" y="290" width="580" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rVWjAJIjlMf2q0YCCjkN-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="rVWjAJIjlMf2q0YCCjkN-5" target="rVWjAJIjlMf2q0YCCjkN-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="440" as="sourcePoint" />
-            <mxPoint x="450" y="390" as="targetPoint" />
+            <mxPoint x="400" y="350" as="sourcePoint" />
+            <mxPoint x="450" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rVWjAJIjlMf2q0YCCjkN-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="rVWjAJIjlMf2q0YCCjkN-9" target="rVWjAJIjlMf2q0YCCjkN-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="440" as="sourcePoint" />
-            <mxPoint x="450" y="390" as="targetPoint" />
+            <mxPoint x="400" y="350" as="sourcePoint" />
+            <mxPoint x="450" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rVWjAJIjlMf2q0YCCjkN-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="rVWjAJIjlMf2q0YCCjkN-8" target="rVWjAJIjlMf2q0YCCjkN-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="440" as="sourcePoint" />
-            <mxPoint x="450" y="390" as="targetPoint" />
+            <mxPoint x="400" y="350" as="sourcePoint" />
+            <mxPoint x="450" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rVWjAJIjlMf2q0YCCjkN-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="rVWjAJIjlMf2q0YCCjkN-9" target="rVWjAJIjlMf2q0YCCjkN-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="440" as="sourcePoint" />
-            <mxPoint x="450" y="390" as="targetPoint" />
+            <mxPoint x="400" y="350" as="sourcePoint" />
+            <mxPoint x="450" y="300" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="V4axPPPocmhvm83aO9Re-4" value="&lt;h1&gt;Bridge interceptor logic&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Based on the outgoing cluster type, try to find the correct topic name&lt;/p&gt;&lt;p&gt;Pods exists only in ARC so topic prefix logic will be used&lt;/p&gt;&lt;p&gt;No such logic should be used when events are being pushed to DRP cluster&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="590" width="660" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
